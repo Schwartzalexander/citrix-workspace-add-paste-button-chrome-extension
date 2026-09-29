@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Citrix OTP Paste icon">
+  <defs>
+    <linearGradient id="bg" x1="18" y1="8" x2="110" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="108" height="108" rx="24" fill="url(#bg)"/>
+  <rect x="36" y="28" width="56" height="72" rx="8" fill="#e0f2fe"/>
+  <rect x="45" y="20" width="38" height="20" rx="7" fill="#ffffff"/>
+  <path d="M48 60h23l-8-8 7-7 20 20-20 20-7-7 8-8H48z" fill="#16a34a"/>
+  <rect x="45" y="90" width="38" height="7" rx="3.5" fill="#94a3b8"/>
+</svg>

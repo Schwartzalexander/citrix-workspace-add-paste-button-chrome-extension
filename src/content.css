@@ -1,0 +1,12 @@
+.citrix-otp-paste-button {
+  display: inline-block;
+  margin-left: 6px;
+  vertical-align: baseline;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.citrix-otp-paste-button:disabled {
+  cursor: default;
+  opacity: 0.7;
+}
