@@ -99,7 +99,10 @@
     });
 
     if (submitButton) {
-      submitButton.insertAdjacentElement("afterend", button);
+      const actions = document.createElement("div");
+      actions.className = "citrix-otp-actions";
+      submitButton.before(actions);
+      actions.append(submitButton, button);
     } else {
       target.appendChild(button);
     }

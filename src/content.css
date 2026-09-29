@@ -1,12 +1,48 @@
-.citrix-otp-paste-button {
-  display: inline-block;
-  margin-left: 6px;
-  vertical-align: baseline;
-  cursor: pointer;
-  white-space: nowrap;
+#auth_form .citrix-otp-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
 }
 
-.citrix-otp-paste-button:disabled {
+#auth_form .citrix-otp-actions > input,
+#auth_form .citrix-otp-actions > button {
+  margin: 0 !important;
+  float: none !important;
+  width: auto !important;
+  flex: 0 0 auto;
+}
+
+#citrix-otp-paste-submit {
+  appearance: none;
+  box-sizing: border-box;
+  height: 34px !important;
+  padding: 6px 12px;
+  border: 1px solid #e42320 !important;
+  border-radius: 0;
+  background: #e42320;
+  color: #fff;
+  font-family: "DBOffice", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: filter 150ms ease;
+}
+
+#citrix-otp-paste-submit:hover:not(:disabled) {
+  filter: brightness(0.9);
+}
+
+#citrix-otp-paste-submit:focus-visible {
+  outline: 2px solid #222;
+  outline-offset: 3px;
+}
+
+#citrix-otp-paste-submit:disabled {
   cursor: default;
   opacity: 0.7;
 }
